@@ -1,25 +1,495 @@
-.wrapper {
-  width: 345px;
-  height: 600px;
-  display: flex;
-  align-items: flex-start;
-  background-color: red;
+body {
+    width: 1900px;
+    height: 1000px;
+    background-color: #DCDCDC;
 }
 
-.sidebar {
-  width: 100px;
-  height: 600px;
-  background-color: #0000cd;
+.rezumeWrapper {
+    width: 682px;
+    height: 883px;
+    margin: auto;
+
+    display: flex;
+    justify-content: space-between;
 }
 
-.rightbar {
-  width: 240px;
-  height: 600px;
-  background-color: #cdcdcd;
+.leftWrapper {
+    width: 251px;
+    background-color: rgb(22, 56, 83);
+    position: relative;
 }
 
-.wrapper2 {
-  width: 345px;
-  height: 600px;
-  background-color: red;
+.rightWrapper {
+    width: 431px;
+    background-color: white;
+    position: relative;
 }
+
+.imgWrapper {
+    width: 136px;
+    height: 136px;
+    margin-left: 77px;
+    margin-top: 36px;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.imgVasilij {
+    object-fit: cover;
+    width: 128px;
+    height: 128px;
+    border-radius: 50%;
+    margin-left: 4px;
+    margin-top: 4px;
+}
+
+.nameFirst {
+    width: 174px;
+    height: 43px;
+    font-family: Arial Narrow, sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    font-style: normal;
+    color: rgb(84, 84, 84);
+    font-kerning: none;
+    text-decoration: none;
+    position: absolute;
+    left: 46px;
+    top: 55px;
+}
+
+.nameLast {
+    width: 180px;
+    height: 43px;
+    font-family: Arial Narrow, sans-serif;
+    font-size: 40px;
+    font-weight: 100;
+    font-style: normal;
+    color: rgb(84, 84, 84);
+    font-kerning: none;
+    text-decoration: none;
+    position: absolute;
+    left: 195px;
+    top: 55px;  
+}
+
+.profession {
+    width: 200px;
+    height: 20px;
+    font-family: Arial Narrow, sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    font-style: normal;
+    color: rgb(84, 84, 84);
+    font-kerning: none;
+    text-decoration: none;
+    text-transform: uppercase;
+    position: absolute;
+    left: 46px;
+    top: 105px;  
+}
+
+.nameLine {
+    width: 51px;
+    position: absolute;
+    border: 2px solid rgb(84, 84, 84);
+    left: 46px;
+    top: 132px;
+}
+
+
+
+
+
+.contact {
+    position: absolute;
+    top: 200px;
+    left: 74px;
+}
+
+.nameContact {
+    width: 130px;
+    height: 17px;
+    font-family: Verdana, sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    font-style: normal;
+    color: rgb(255, 255, 255);
+    font-kerning: none;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+}
+
+.contactLine {
+    width: 149px;
+    border: 1px solid white;
+    margin-top: 10px;
+}
+
+.contactPhone {
+    height: 13px;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 15px;
+}
+
+.iconPhone {
+    width: 13px;
+    height: 13px;
+    margin-right: 5px;
+}
+
+.imgPhone {
+    width: 13px;
+    height: 13px;
+}
+
+.numberPhone {
+    color: white;
+    font-size: 12px;
+}
+
+.contactTelegram {
+    height: 13px;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 15px; 
+}
+
+.iconTelegram {
+    margin-right: 5px;
+}
+
+.imgTelegram {
+    width: 15px;
+    height: 15px;
+}
+
+.letterTelegram {
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.contactEmail {
+    height: 13px;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 15px; 
+}
+
+.iconEmail {
+    margin-right: 5px; 
+}
+
+.imgEmail {
+    width: 15px;
+    height: 15px; 
+}
+
+.letterEmail {
+    color: white;
+    font-size: 12px; 
+}
+
+
+
+
+
+
+.education {
+    position: absolute;
+    top: 350px;
+    left: 74px;
+}
+
+.nameEducation {
+    width: 130px;
+    height: 17px;
+    font-family: Verdana, sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    font-style: normal;
+    color: rgb(255, 255, 255);
+    font-kerning: none;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+}
+
+.educationLine {
+    width: 149px;
+    border: 1px solid white;
+    margin-top: 10px;
+}
+
+.trainingTime {
+    height: 13px;
+    color: white;
+    font-size: 13px;
+    margin-top: 13px;
+}
+
+.nameUniversity {
+    height: 13px;
+    font-size: 13px;
+    text-transform: uppercase;
+    color: white;
+    margin-top: 6px;
+}
+
+.nameProfession {
+    height: 13px;
+    font-size: 11px;
+    color: white;
+    margin-top: 10px;
+    padding-left: 10px;
+}
+
+
+
+
+
+
+.programms {
+    position: absolute;
+    top: 475px;
+    left: 74px;
+}
+
+.nameProgramms {
+    width: 130px;
+    height: 40px;
+    font-family: Verdana, sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    font-style: normal;
+    color: rgb(255, 255, 255);
+    font-kerning: none;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+}
+
+.programmsLine {
+    width: 149px;
+    border: 1px solid white;
+    margin-top: 10px;
+}
+
+.programmsText {
+    height: 13px;
+    font-size: 12px;
+    color: white;
+    margin-top: 10px;
+    padding-left: 10px;
+}
+
+
+
+
+
+
+
+.language {
+    position: absolute;
+    top: 600px;
+    left: 74px;
+}
+
+.nameLanguage {
+    width: 130px;
+    height: 17px;
+    font-family: Verdana, sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    font-style: normal;
+    color: rgb(255, 255, 255);
+    font-kerning: none;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+}
+
+.languageLine {
+    width: 149px;
+    border: 1px solid white;
+    margin-top: 10px;
+}
+
+.languageText {
+    height: 13px;
+    font-size: 12px;
+    color: white;
+    margin-top: 10px;
+    padding-left: 10px;
+}
+
+
+
+
+
+
+
+.portfolio {
+    position: absolute;
+    top: 690px;
+    left: 74px;
+}
+
+.namePortfolio {
+    width: 130px;
+    height: 17px;
+    font-family: Verdana, sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    font-style: normal;
+    color: rgb(255, 255, 255);
+    font-kerning: none;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+}
+
+.portfolioLine {
+    width: 149px;
+    border: 1px solid white;
+    margin-top: 10px;
+}
+
+
+.portfolioText {
+    width: 25px;
+    height: 25px;
+}
+
+.portfolioLink {
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+
+
+.workExperience {
+    position: absolute;
+    top: 200px;
+    left: 22px;
+}
+
+.nameWorkExperience {
+    width: 230px;
+    height: 17px;
+    font-family: Verdana, sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    font-style: normal;
+    color: rgb(22, 56, 83);
+    font-kerning: none;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.workExperienceLine {
+    width: 365px;
+    border: 1px solid rgb(22, 56, 83);
+    margin-top: 10px;
+}
+
+.card1 {
+    position: absolute;
+    top: 40px; 
+}
+
+.point {
+    width: 6px;
+    height: 6px;
+    background-color: rgb(22, 56, 83);
+    border-radius: 50%;
+}
+
+.leftLine {
+    height: 100px;
+    border-left: 1px solid rgb(22, 56, 83); 
+    margin-left: 3px;
+}
+
+.universityDate {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+/*.qualities {
+    position: absolute;
+    top: 650px;
+    left: 74px;
+}
+
+.nameQualities {
+    width: 130px;
+    height: 17px;
+    font-family: Verdana, sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    font-style: normal;
+    color: rgb(255, 255, 255);
+    font-kerning: none;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+}
+
+.qualitiesLine {
+    width: 149px;
+    border: 1px solid white;
+    margin-top: 10px;
+}
+
+.qualitiesText {
+    height: 13px;
+    font-size: 12px;
+    color: white;
+    margin-top: 10px;
+    padding-left: 10px;
+}*/
+
+
+/*.skills {
+    position: absolute;
+    top: 475px;
+    left: 74px;
+}
+
+.nameSkills {
+    width: 130px;
+    height: 17px;
+    font-family: Verdana, sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    font-style: normal;
+    color: rgb(255, 255, 255);
+    font-kerning: none;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+}
+
+.skillsLine {
+    width: 149px;
+    border: 1px solid white;
+    margin-top: 10px;
+}
+
+.skillsText {
+    height: 13px;
+    font-size: 12px;
+    color: white;
+    margin-top: 10px;
+    padding-left: 10px;
+}*/
+
