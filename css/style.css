@@ -244,7 +244,29 @@ body {
     font-size: 11px;
     color: white;
     margin-top: 10px;
+    margin-bottom: 5px;
     padding-left: 10px;
+}
+
+.diploma {
+    width: 65px;
+    height: 12px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.textWrapper {
+    width: 50px;
+    height: 12px;
+    margin: auto;
+}
+
+.textDiploma {
+    font-size: 13px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
 }
 
 
@@ -254,7 +276,7 @@ body {
 
 .programms {
     position: absolute;
-    top: 475px;
+    top: 495px;
     left: 74px;
 }
 
@@ -294,7 +316,7 @@ body {
 
 .language {
     position: absolute;
-    top: 600px;
+    top: 620px;
     left: 74px;
 }
 
@@ -334,7 +356,7 @@ body {
 
 .portfolio {
     position: absolute;
-    top: 690px;
+    top: 710px;
     left: 74px;
 }
 
@@ -399,97 +421,132 @@ body {
     margin-top: 10px;
 }
 
-.card1 {
-    position: absolute;
-    top: 40px; 
+
+
+
+
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 12px;
+}
+
+.verticalLine {
+    position: relative;
+    height: 100px;
+    border: 1px solid rgb(22, 56, 83);
+    margin-left: 2px;
 }
 
 .point {
+    position: absolute;
     width: 6px;
     height: 6px;
-    background-color: rgb(22, 56, 83);
     border-radius: 50%;
+    left: -3px;
+    top: -2px;
+    background-color: rgb(22, 56, 83);
 }
 
-.leftLine {
+.cardsWrapper {
+    width: 363px;
     height: 100px;
-    border-left: 1px solid rgb(22, 56, 83); 
-    margin-left: 3px;
 }
 
 .universityDate {
+    width: 348px;
     display: flex;
     justify-content: space-between;
+    margin-top: -5px;
+    margin-left: 15px;
+}
+
+.university {
+    font-family: Verdana, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.text {
+    width: inherit;
+    font-size: 12px;
+}
+
+.workList {
+    margin-top: 0px;
 }
 
 
 
-/*.qualities {
+
+
+.skills {
+    width: 365px;
     position: absolute;
-    top: 650px;
-    left: 74px;
+    top: 365px;
+    left: 22px;
 }
 
-.nameQualities {
-    width: 130px;
+.nameSkills {
+    width: 230px;
     height: 17px;
     font-family: Verdana, sans-serif;
     font-size: 17px;
     font-weight: 700;
     font-style: normal;
-    color: rgb(255, 255, 255);
+    color: rgb(22, 56, 83);
     font-kerning: none;
     text-decoration: none;
     text-transform: uppercase;
-    color: white;
+}
+
+.skillsLine {
+    width: 365px;
+    border: 1px solid rgb(22, 56, 83);
+    margin-top: 10px;
+}
+
+
+.skillsList {
+    font-size: 12px;
+    padding-left: 15px;
+}
+
+
+
+
+
+
+.qualities {
+    width: 365px;
+    position: absolute;
+    top: 615px;
+    left: 22px;
+}
+
+.nameQualities {
+    width: 230px;
+    height: 17px;
+    font-family: Verdana, sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    font-style: normal;
+    color: rgb(22, 56, 83);
+    font-kerning: none;
+    text-decoration: none;
+    text-transform: uppercase;
 }
 
 .qualitiesLine {
-    width: 149px;
-    border: 1px solid white;
+    width: 365px;
+    border: 1px solid rgb(22, 56, 83);
     margin-top: 10px;
 }
 
 .qualitiesText {
-    height: 13px;
     font-size: 12px;
-    color: white;
+    color: rgb(22, 56, 83);
     margin-top: 10px;
-    padding-left: 10px;
-}*/
-
-
-/*.skills {
-    position: absolute;
-    top: 475px;
-    left: 74px;
+    padding-left: 15px;
 }
-
-.nameSkills {
-    width: 130px;
-    height: 17px;
-    font-family: Verdana, sans-serif;
-    font-size: 17px;
-    font-weight: 700;
-    font-style: normal;
-    color: rgb(255, 255, 255);
-    font-kerning: none;
-    text-decoration: none;
-    text-transform: uppercase;
-    color: white;
-}
-
-.skillsLine {
-    width: 149px;
-    border: 1px solid white;
-    margin-top: 10px;
-}
-
-.skillsText {
-    height: 13px;
-    font-size: 12px;
-    color: white;
-    margin-top: 10px;
-    padding-left: 10px;
-}*/
-
