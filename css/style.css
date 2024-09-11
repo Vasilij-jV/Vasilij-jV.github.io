@@ -193,6 +193,11 @@ body {
     font-size: 12px; 
 }
 
+.letterEmailLink {
+    text-decoration: none;
+    color: white;
+}
+
 
 
 
@@ -395,10 +400,55 @@ body {
 
 
 
+.myself {
+    position: absolute;
+    top: 200px;
+    left: 22px;
+}
+
+.nameMyself {
+    width: 230px;
+    height: 17px;
+    font-family: Verdana, sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    font-style: normal;
+    color: rgb(22, 56, 83);
+    font-kerning: none;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.myselfLine {
+    width: 365px;
+    border: 1px solid rgb(22, 56, 83);
+    margin-top: 10px;
+}
+
+.myselfText {
+    display: flex;
+    justify-content: center;
+    width: 365px;
+    height: 80px;
+    font-size: 12px;
+}
+
+p {
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
 
 .workExperience {
     position: absolute;
-    top: 200px;
+    top: 330px;
     left: 22px;
 }
 
@@ -484,7 +534,7 @@ body {
 .skills {
     width: 365px;
     position: absolute;
-    top: 365px;
+    top: 495px;
     left: 22px;
 }
 
@@ -521,7 +571,7 @@ body {
 .qualities {
     width: 365px;
     position: absolute;
-    top: 615px;
+    top: 745px;
     left: 22px;
 }
 
