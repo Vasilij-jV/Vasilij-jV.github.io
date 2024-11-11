@@ -1,0 +1,50 @@
+
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Код на Python</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/styles/default.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/highlight.min.js"></script>
+  <style>
+    pre {
+      background-color: #f5f5f5;
+            padding: 10px;
+            border-radius: 5px;
+            overflow-x: auto;
+        }
+  </style>
+</head>
+<body>
+  <a class="termin" href="terminology.html">terminology</a>
+  <pre><code class="python">
+    def hello_world():
+      print("Hello, world!")
+
+    hello_world()
+
+    def is_boiling(temp):
+      if temp[-1] == 'C':
+        return True if 100 <= int(temp[:-1]) else False
+      else:
+        return True if 212 <= int(temp[:-1]) else False
+
+    print(is_boiling('150C'))
+    print(100 <= 100 < 212)
+
+
+    def color_invert(rgb):
+      return tuple((x - y for x, y in zip((255, 255, 255), rgb)))
+
+    print(color_invert((25, 25, 55)))
+        </code></pre>
+
+        <!--<script>
+          hljs.highlightAll();
+        </script>-->
+        <script>hljs.initHighlightingOnLoad();
+        </script>
+      </body>
+    </html>
