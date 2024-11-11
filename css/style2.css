@@ -1,0 +1,29 @@
+body {
+  width: 950px;
+  height: 1550px;
+}
+
+.term {
+  width: 100%;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  padding-left: 30px;
+  background-color: #E5E4E2;
+}
+
+.term_wight {
+  width: 100%;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  padding-left: 30px;
+  background-color: #ffffff;
+}
+
+.title_term {
+  text-transform: uppercase;
+}
+
+.text_term {
+  font-size: 30px;
+  color: #0047ab;
+}
